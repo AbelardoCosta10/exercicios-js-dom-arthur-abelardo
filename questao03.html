@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Questão 03 - Formulário e exibição</title>
+</head>
+<body>
+  <h2>Formulário de Cadastro</h2>
+
+  <form id="form-cadastro">
+    <label>Nome completo:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label>Data de nascimento:</label>
+    <input type="date" id="dataNasc"><br><br>
+
+    <label>Rua:</label>
+    <input type="text" id="rua"><br><br>
+
+    <label>Número:</label>
+    <input type="number" id="numero"><br><br>
+
+    <label>Cidade:</label>
+    <input type="text" id="cidade"><br><br>
+
+    <label>Estado (UF):</label>
+    <input type="text" id="uf"><br><br>
+
+    <button id="cadastrar" type="button" onclick="cadastrarUsuario()">Cadastrar</button>
+  </form>
+
+  <p id="resultado"></p>
+
+  <script src="questao03.js"></script>
+</body>
+</html>
